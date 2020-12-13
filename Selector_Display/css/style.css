@@ -1,0 +1,30 @@
+/*----------Tag Selectors--------------*/
+body{
+  text-align: center;
+}
+h1{
+  color:red;
+  font: 180px;
+}
+img{
+  background-color: yellow;
+}
+/*----------Class Selectors--------------*/
+.heading{
+  background-color: pink;
+  display: block;
+}
+.circular{
+  border-radius: 100%;
+}
+.hamburger{
+  background-color: black;
+}
+
+.pizza {
+  background-color: orange;
+}
+/*----------Id Selectors--------------*/
+#name{
+  background-color: yellow;
+}

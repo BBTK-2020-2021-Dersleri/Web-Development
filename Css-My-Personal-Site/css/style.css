@@ -1,0 +1,30 @@
+body{
+  margin:0;
+  text-align: center;
+}
+
+h1{
+  color: #11999E;
+  font-size: 55px
+}
+h2{
+  color: #66BFBF ;
+  font-size: 35px
+}
+
+.top-container{
+  background-color: #E4F9F5;
+  padding-top:25px;
+  position: relative;
+}
+.top-cloud{
+  position: absolute;
+  right: 500px;
+  top: 30px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 380px;
+  bottom: 290px;
+}

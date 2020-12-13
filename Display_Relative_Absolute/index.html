@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Display</title>
+  <style media="screen">
+  div{/*Make content of box at center*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #main1 {
+    height: 600px;
+    width: 600px;
+    background: #4BACC6;
+    position: relative;
+    left: 500px;
+    top: 100px;
+  }
+  #main2 {
+    height: 250px;
+    width: 250px;
+    background: #ED9347;
+    position: absolute;
+    top:0px;
+    left: 0px;
+  }
+
+  #main3 {
+    height: 100px;
+    width: 100px;
+    background: #34E79A;
+    position: absolute;
+    top:0px;
+    left: 0px;
+  }
+  </style>
+</head>
+<body>
+  <div id="main1">BOX 1
+    <div id="main2">BOX 2</div>
+    <div id="main3">BOX 3 </div>
+   </div>
+</body>
+</html>

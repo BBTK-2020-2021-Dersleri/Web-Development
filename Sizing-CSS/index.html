@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sizing</title>
+
+  <style>
+    .box{
+      padding: 50px;
+      width: 500px;
+      height: 500px;
+      background-color: cornflowerblue;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 3em;/*to show problems for using % and em units*/
+    }
+
+    .heading-1{
+      font-size: 16px;/*Static*/
+    }
+    .heading-2{
+      font-size:100% /*Dynamic - inherented*/ /*16px = 100%*/
+    }
+    .heading-3{
+      font-size:1em; /*Dynamic - inherented*/
+    }
+    .heading-4{
+      font-size: 1rem;  /* Dynamic - root inherented*/
+    }
+
+/*16px = 100% = 1em = 1rem*/
+  </style>
+
+
+</head>
+<body>
+  <div class="box">
+    <h1 class="heading-1"> px -> heading-1</h1>
+    <h1 class="heading-2"> % -> heading-2</h1>
+    <h1 class="heading-3"> em -> heading-3</h1>
+    <h1 class="heading-4"> rem -> heading-4</h1>
+  </div>
+</body>
+</html>
